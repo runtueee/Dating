@@ -3,6 +3,11 @@
     {
       "src": "/api/(.*)",
       "dest": "/api/coze-chat"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "outputDirectory": "dist/static"
 }
