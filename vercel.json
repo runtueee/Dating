@@ -1,14 +1,8 @@
 {
-  "builds": [
-    {
-      "src": "backend/server.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/server.js"
+      "dest": "/api/coze-chat"
     },
     {
       "src": "/(.*)",
