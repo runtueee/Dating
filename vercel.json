@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/static/index.html"
+      "destination": "/index.html"
     }
   ],
   "outputDirectory": "dist/static"
