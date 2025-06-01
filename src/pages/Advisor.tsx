@@ -44,7 +44,7 @@ export default function Advisor() {
     setIsLoadingAI(true);
 
     try {
-      const response = await fetch('http://localhost:3001/api/coze-chat', {
+      const response = await fetch('https://dating-b62r.vercel.app/api/coze-chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
